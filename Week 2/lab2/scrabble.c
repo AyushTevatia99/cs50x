@@ -46,7 +46,7 @@ int compute_score(string word)
     {
         if (word[i] >= 'a' && word[i] <= 'z')
         {
-            jumlah += POINTS[word[i] - 96];
+            jumlah += POINTS[word[i] - 97];
         }
         else
         {
